@@ -1,5 +1,4 @@
 import requests
 r = requests.get('http://0.0.0.0:9876/talkingparrot')
-print(r.status_code)
-print(r.text)
-
+print('Python API Test Status Code:' + (r.status_code))
+print('Python API Test Get Request Response Text:' + (r.text))
